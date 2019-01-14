@@ -46,5 +46,21 @@ namespace ticTacToeTesting
             Assert.True(game.PlayerTwo.IsTurn);
 
         }
+        [Fact]
+        public void TestForDraw()
+        {
+            //arrange
+            Player playerOne = new Player();
+            playerOne.Marker = "X";
+            Player playerTwo = new Player();
+            playerTwo.Marker = "O";
+
+            //act
+            Game game = new Game(playerOne, playerTwo);
+
+            //assert
+           
+
+        }
     }
 }

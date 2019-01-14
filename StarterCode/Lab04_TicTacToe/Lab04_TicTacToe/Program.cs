@@ -7,6 +7,8 @@ namespace Lab04_TicTacToe
     {
         static void Main(string[] args)
         {
+            // need a name, marker and whos turn it is to start the game, same for player one and two
+            //Intantiating a new GAme to be played 
             Console.WriteLine("Hello World!");
             Player player1 = new Player();
             player1.Name = "Regan";

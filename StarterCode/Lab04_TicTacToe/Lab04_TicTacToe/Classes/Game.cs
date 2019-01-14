@@ -6,6 +6,9 @@ namespace Lab04_TicTacToe.Classes
 {
 	class Game
 	{
+        /// <summary>
+        /// Game will require a player one, two, a winner and a board
+        /// </summary>
 		public Player PlayerOne { get; set; }
 		public Player PlayerTwo { get; set; }
 		public Player Winner { get; set; }
